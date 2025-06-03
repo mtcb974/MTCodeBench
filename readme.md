@@ -11,7 +11,7 @@ Function level datasets are in `dataset/function_level.json`, and the code is in
 ### Dataset Format
 
 Data format is as follows:
-```json
+```
   {
     "mt_id": <dataset ID>,
     "task_id": <dataset ID in bigcodebench>,
@@ -93,7 +93,7 @@ Repo level datasets are in `dataset/repo_level.json`, and the code is in `repo_l
 
 The data format is as follows:
 
-```json
+```
 {
     ## The same as original DevEval
     "namespace": <string, the unique name of the code to be generated, e.g., benedict.utils.type_util.is_bool.>,
